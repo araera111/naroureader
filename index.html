@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/siimple@3.3.1/dist/siimple.min.css">
+  <link rel="stylesheet" href="./css/common.css">
+  <title>なろう小説を1行ずつ読むマシーン</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="siimple-h1">なろう小説を1行ずつ読むマシーン</div>
+    <div>
+      <textarea name="text-area" id="text-area" cols="100" rows="20" class="siimple-textarea">
+
+      </textarea>
+    </div>
+    <div class="button-wrapper">
+      <button class="siimple-btn siimple-btn--primary" id="js-button">
+        変換
+      </button>
+    </div>
+    <div>
+      <div class="siimple-box" id="js-show-area"></div>
+    </div>
+    <div class="control-button">
+      <button class="siimple-btn siimple-btn--primary" id="js-back-button">
+        前へ
+      </button>
+      <button class="siimple-btn siimple-btn--primary" id="js-next-button">
+        次へ
+      </button>
+    </div>
+  </div>
+  <script src="./src/index.js"></script>
+</body>
+
+</html>

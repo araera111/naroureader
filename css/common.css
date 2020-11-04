@@ -1,0 +1,24 @@
+.wrapper {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.button-wrapper {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.control-button {
+  margin-top: 1rem;
+}
+
+#js-show-area {
+  text-align: center;
+  margin: auto;
+  width: 677px;
+  height: 200px;
+}
+
+#js-back-button {
+  margin-right: 2rem;
+}
